@@ -1,7 +1,5 @@
 var express = require('express');
 var http = require('http');
-var https = require('https');
-var path = require('path');
 var server = require('socket.io');
 
 var httpserv;
@@ -27,22 +25,25 @@ httpserv = http.createServer(app).listen(port, function() {
 /*
 }
 */
+var zombie = [];
+var MrRobot = [];
 
 var io = server(httpserv,{path: '/wetty/socket.io'});
-io.on('connection', function(socket){
-    var sshuser = '';
-    var request = socket.request;
-
-    var term;
-    if (process.getuid() == 0) {
-        term = pty.spawn('/bin/bash', [], {
-            name: 'xterm-256color',
-            cols: 80,
-            rows: 30
-        });
-    }
-    console.log((new Date()) + " PID=" + term.pid + " STARTED on behalf of user=" + sshuser)
-    term.on('data', function(data) {
+io.on('connection', function(socket) {
+    var userUseZombie = {};
+    socket.on('zombieInLogin', function(data) {
+        zombie.push({'hostname' : data.hostname, socket});
+    });
+    socket.on('mrRobotWantZombie', function(data) {
+        for ( var i = 0; i < zombie.len; i++ ) {
+            if (zombie[i].hostname === data.hostname) {
+                userUseZombie = zombie[i];
+                MrRobot.push({'zombie' : zombie[i], 'user' : data});
+                break;
+            }
+        };
+    });
+    socket.on('dataz', function(data) {
         socket.emit('output', data);
     });
     term.on('exit', function(code) {

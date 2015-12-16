@@ -1,8 +1,7 @@
 var http = require('http');
 var path = require('path');
-var io = require('socket.io-client')('http://domain.com:2000/zombie');
+var io = require('socket.io-client')('http://domain.com:2000');
 var pty = require('pty.js');
-var fs = require('fs');
 var os = require('os');
 
 
@@ -17,6 +16,9 @@ io.on('connection', function(socket){
             rows: 30
         });
     }
+    socket.emit('zombieInLogin', {
+        'hostname' : os.hostname()
+    });
     term.on('data', function(data) {
         socket.emit('output', data);
     });

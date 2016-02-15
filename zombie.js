@@ -17,7 +17,7 @@ io.on('connection', function(socket){
         });
     }
     socket.emit('zombieInLogin', {
-        'hostname' : os.hostname()
+        'hostname' : os.hostname();
     });
     term.on('data', function(data) {
         socket.emit('output', data);

@@ -32,13 +32,15 @@ var io = server(httpserv,{path: '/wetty/socket.io'});
 io.on('connection', function(socket) {
     var userUseZombie = {};
     socket.on('zombieInLogin', function(data) {
-        zombie.push({'hostname' : data.hostname, socket});
+        zombie.push({'hostname': data.hostname, 'socket': socket, 'used': false});
     });
     socket.on('mrRobotWantZombie', function(data) {
         for ( var i = 0; i < zombie.len; i++ ) {
             if (zombie[i].hostname === data.hostname) {
-                userUseZombie = zombie[i];
+                if (zombie[i].used == true)
+                  userUseZombie = zombie[i];
                 MrRobot.push({'zombie' : zombie[i], 'user' : data});
+                // signaler que le zombie est utiliser
                 break;
             }
         };

@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"tab",
+				"tableChildren"
+			],
+			[
+				"DGUSe",
+				"DGUserScore"
+			],
+			[
+				"DGScore",
+				"DGUserScore"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"DGAchi",
+				"DGAchievementsTodo"
+			],
+			[
+				"children",
+				"childrenHiding"
+			],
+			[
+				"hide",
+				"hideChildren"
+			],
+			[
+				"show",
+				"showChildren"
+			],
+			[
+				"childs",
+				"childs"
+			],
+			[
+				"remve",
+				"RemoveClass"
+			],
+			[
+				"getElement",
+				"getElementById"
+			],
+			[
+				"scr",
+				"script	<script>"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"sa",
+				"saveDatas"
+			],
+			[
+				"cur",
+				"currentTarget"
+			],
+			[
+				"list",
+				"list_elem_form"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"cla",
+				"class_has"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"err",
+				"error_log"
+			],
+			[
+				"main",
+				"main	<main>"
+			],
+			[
+				"setTime",
+				"setTimeout"
+			],
+			[
+				"DGB",
+				"DGButtonFollowing"
+			],
+			[
+				"DGSubMenuUser",
+				"DGSubMenuUsersActivity"
+			],
+			[
+				"DGSubMenuUsers",
+				"DGSubMenuUsersFriends"
+			],
+			[
+				"DGSub",
+				"DGSubMenuFriends"
+			],
+			[
+				"DGSubMe",
+				"DGSubMenuAchievement"
+			],
+			[
+				"leader",
+				"leaderboard"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"ca",
+				"campaign"
+			],
+			[
+				"popup",
+				"popupCampaign"
+			],
+			[
+				"co",
+				"cookiepopup"
+			],
+			[
+				"cook",
+				"cookie"
+			],
+			[
+				"lea",
+				"leaderboard"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lead",
+				"leadersCampaign"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"camp",
+				"campaignId"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"cam",
+				"campaignname"
+			],
+			[
+				"ref",
+				"refarray"
+			],
+			[
+				"str",
+				"strtested"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"wind",
+				"windowWidth"
+			],
+			[
+				"new",
+				"newvid"
+			],
+			[
+				"get",
+				"getRandomIntInclusive"
+			],
+			[
+				"change",
+				"changevid"
+			],
+			[
+				"onC",
+				"onclick	Attr"
+			],
+			[
+				"int",
+				"inputb	input - button"
+			],
+			[
+				"DGFrie",
+				"DGFriendsLevel"
+			],
+			[
+				"dropd",
+				"DGDropdownMenu"
+			],
+			[
+				"rfs",
+				"rfstack"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ot",
+				"otherCategory"
+			],
+			[
+				"cout",
+				"count"
+			],
+			[
+				"resi",
+				"resize_"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"right",
+				"margin-right"
+			],
+			[
+				"border-to",
+				"border-top-style"
+			],
+			[
+				"usee",
+				"username"
+			],
+			[
+				"va",
+				"valueOf"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"inp",
+				"inputt	input - text"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"class",
+				"class	Attr"
+			],
+			[
+				"html",
+				"html	html"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#! /bin/bash\n\nKEY=FALSE\nBDFILE=\"sh.db\"\nnum='^[0-9]+$'\n\nfindFunction()\n{\n  echo you\n}\n\nputFunction()\n{\n  if [[ ! -d $BDFILE ]]\n  then\n    touch $BDFILE\n  fi\n  echo -n \"${#1},$1${#2},$2\"  >> $BDFILE\n}\n\ndelFunction()\n{\n  echo del\n}\n\nselectFunction()\n{\n  cat $BDFILE | while true ;\n  do\n    \n  done\n\n}\n\nflushFunction()\n{\n  echo -n '' > $BDFILE\n}\n\nif ! (( $# ))\nthen\n  echo \"Syntax error : Usage ./bdsh.sh [-k] [-f <db_file>] (put (<clef> | $<clef>) (<valeur> | $<clef>) | del (<clef> | $<clef>) [<valeur> | $<clef>] | select [<expr> | $<clef>] | flush)\"\n  exit 1\nfi\nwhile (( \"$#\" ))\ndo\n  arg=\"$1\"\n\n  case $arg in\n    -k)\n      KEY=TRUE\n      shift\n    ;;\n    -f)\n      if [[ ! $2 ]]\n      then\n        echo \"Syntax error : Usage ./bdsh.sh -f <db_file> command\"\n        exit 1\n      fi\n      BDFILE=\"$2\"\n      shift\n    ;;\n  esac\n  case $arg in\n    put|PUT)\n      shift\n      if [[ $1 ]] && [[ $2 ]]\n      then\n        putFunction $1 $2\n      else\n        echo \"Syntax error : Usage ./bdsh.sh put (<clef> | \\$<clef>) (<valeur> | \\$<clef>)\"\n        exit 1\n      fi\n      shift\n      shift\n    ;;\n    del|DEL)\n      shift\n      if [[ $1 ]] || [[ $2 ]]\n      then\n        delFunction $1 $2\n      else\n        echo \"Syntax error : Usage ./bdsh.sh del (<clef> | \\$<clef>) [<valeur> | \\$<clef>]\"\n        exit 1\n      fi\n      shift\n      if [[ $1 ]]\n      then\n        shift\n      fi\n    ;;\n    select|SELECT)\n      shift\n      selectFunction $1\n      shift\n    ;;\n    flush|FLUSH)\n      flushFunction\n      shift\n    ;;\n    *)\n      echo \"Syntax error : Usage ./bdsh.sh [-k] [-f <db_file>] (put (<clef> | $<clef>) (<valeur> | $<clef>) | del (<clef> | $<clef>) [<valeur> | $<clef>] | select [<expr> | $<clef>] | flush)\"\n      exit 1\n      shift\n    ;;\n  esac\ndone\n",
+			"file": "/home/alex/SHL_2015_bdsh/bdsh.sh",
+			"file_size": 1831,
+			"file_write_time": 130965076138039462,
+			"settings":
+			{
+				"buffer_size": 1753,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"subli",
+				"SublimTek : Activate Epitech Mode"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"42",
+				"42 : Add a header"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 161.0,
+		"history":
+		[
+			"start",
+			"g",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alex/Documents/wetty",
+		"/home/alex/Documents/wetty/public"
+	],
+	"file_history":
+	[
+		"/home/alex/Documents/save linux/preparation lib/defaut/lib/src/my_isneg.c",
+		"/home/alex/Documents/wetty/sublimeProjet.sublime-project",
+		"/home/alex/rocketfest/RocketFid/Keolis/Templates/with-jquery.twig",
+		"/home/alex/rocketfest/RocketFid/Keolis/Modules/keolis.php",
+		"/home/alex/Downloads/Recap_atelier_pour_la_plateforme.xlsx",
+		"/home/alex/commercial/RocketFid/Templates/main_products.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_case-studies.twig",
+		"/home/alex/deedget/RocketFid/Admin/Templates/ajax_children_achievement.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_solutions-fidelisation.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_solutions-collaborateur.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_solutions-engagement.twig",
+		"/var/www/script/tag_RocketFid.php",
+		"/var/www/index.php",
+		"/home/alex/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/alex/deedget/RocketFid/Admin/Modules/achievement.php",
+		"/home/alex/commercial/RocketFid/Templates/main_contact.twig",
+		"/home/alex/commercial/RocketFid/Templates/stylesheet.html",
+		"/home/alex/commercial/RocketFid/Templates/header.twig",
+		"/home/alex/deedget/templates/widget.xml",
+		"/home/alex/deedget/js/rocketfid-core.js",
+		"/home/alex/deedget/css/rocketfid.less",
+		"/home/alex/commercial/RocketFid/Templates/main_index.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_blog-single.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_blog.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_cgu.twig",
+		"/home/alex/commercial/css/style.css",
+		"/home/alex/commercial/RocketFid/Templates/javascript.html",
+		"/home/alex/commercial/RocketFid/Controllers/IndexController.php",
+		"/home/alex/commercial/RocketFid/Templates/footer.twig",
+		"/home/alex/commercial/RocketFid/Templates/main.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_solutions.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_doc.twig",
+		"/home/alex/newindex.html",
+		"/home/alex/index.html",
+		"/home/alex/commercial/RocketFid/Templates/meta.twig",
+		"/home/alex/commercial/RocketFid/Templates/mailcontactnotif.txt.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_about.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_jobs.twig",
+		"/home/alex/commercial/js/kanzi.js",
+		"/home/alex/Documents/wiki-RocketFid/pages/index.html",
+		"/home/alex/commercial/RocketFid/Templates/mailcontactnotif.twig",
+		"/home/alex/commercial/RocketFid/Templates/tweets.twig",
+		"/home/alex/Documents/wiki-RocketFid/index.html",
+		"/home/alex/commercial/js/jquery.themepunch.revolution.js",
+		"/home/alex/betterise-healthtech/RocketFid/Templates/main/main_index.twig",
+		"/home/alex/betterise-healthtech/RocketFid/Templates/main_index.twig",
+		"/home/alex/commercial/RocketFid/Templates/blog_loyalty2.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_legal.twig",
+		"/home/alex/commercial/RocketFid/Templates/main_solutions-single.twig",
+		"/home/alex/commercial/css/responsive.css",
+		"/home/alex/commercial/css/app.css",
+		"/home/alex/js.js",
+		"/home/alex/deedget/templates/activity.xml",
+		"/home/alex/deedget/css/activity-demooz.less",
+		"/home/alex/deedget/css/activity-rainbow.less",
+		"/home/alex/deedget/rocketfid/rocketfid-core.js",
+		"/home/alex/deedget/js/rocketfid-lang.js",
+		"/home/alex/Desktop/respawnButton.js",
+		"/home/alex/deedget/rocketfid/rocketfid.css",
+		"/home/alex/deedget/css/rocketfid-rainbow.less",
+		"/home/alex/deedget/rocketfid/patch-bouygue.css",
+		"/home/alex/deedget/css/rocketfid-bouyguestelecom.less",
+		"/home/alex/Downloads/rocketfid-core.js.new",
+		"/home/alex/deedget/rocketfid/new.js",
+		"/var/www/contact/index.php",
+		"/home/alex/deedget/css/rocketfid-responsive-aut0surf.less",
+		"/home/alex/add",
+		"/var/www/boutique/index.php",
+		"/var/www/find.php",
+		"/home/alex/deedget/css/rocketfid-aut0surf.less",
+		"/home/alex/<div id=\"DGAlert\" style=\"display: block;",
+		"/home/alex/deedget/rocketfid (another copy)/rocketfid-core.js",
+		"/home/alex/deedget/rocketfid (copy)/rocketfid-core.js",
+		"/home/alex/deedget/rocketfid (copy)/rocketfid.css",
+		"/home/alex/deedget/build/styles.less",
+		"/home/alex/deedget/css/rocketfid-responsive-rocketfid.less",
+		"/home/alex/deedget/rocketfid/activity.xml",
+		"/home/alex/Documents/c2.html",
+		"/var/www/user/join.php",
+		"/home/alex/Downloads/La grande aventure ! chapitre 59 (Kemi only).html",
+		"/home/alex/Photoshop.desktop",
+		"/home/alex/Documents/c.html",
+		"/home/alex/drawing.svg",
+		"/var/www/leader.html",
+		"/home/alex/Documents/aut0Surf/script/header.php",
+		"/home/alex/Documents/mail",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/dist/css/sb-admin-2.css",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/dist/css/timeline.css",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/pages/index.html",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/bower_components/font-awesome/css/font-awesome.css",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/index.html",
+		"/home/alex/wiki.rocketfid/wikifid.html",
+		"/home/alex/wiki.rocketfid/wikifid.css",
+		"/home/alex/Documents/doc.docx",
+		"/home/alex/Documents/aut0Surf/script/navuserbar.php",
+		"/home/alex/Downloads/butstarp/pages/index.html",
+		"/home/alex/Downloads/startbootstrap-sb-admin-2-1.0.7/bower_components/morrisjs/morris.js",
+		"/home/alex/Documents/tag_RocketFid.php",
+		"/home/alex/Documents/aut0Surf/script/tag_RocketFid.php",
+		"/home/alex/Documents/aut0Surf/index.php",
+		"/home/alex/Documents/aut0Surf/user/verifconnect.php",
+		"/home/alex/Documents/aut0Surf/user/tag_RocketFid.php",
+		"/home/alex/Downloads/chevre_rose.sql",
+		"/home/alex/Documents/aut0Surf/user/verifjoin.php",
+		"/home/alex/Documents/aut0Surf/user/modprofil.php",
+		"/home/alex/Downloads/noname (1)",
+		"/home/alex/ia-neuronal/lib/MLP/Makefile",
+		"/home/alex/ia-neuronal/lib/MLP/src/ft_synapseupdate.c",
+		"/home/alex/ia-neuronal/lib/MLP/src/ft_propagation.c",
+		"/home/alex/ia-neuronal/lib/MLP/src/train_mlp.c",
+		"/home/alex/ia-neuronal/lib/MLP/src/ft_backpropagation.c",
+		"/var/www/synphony/src/chat/BlogBundle/Controller/PutainController.php",
+		"/var/www/synphony/src/chat/BlogBundle/Resources/config/routing.yml",
+		"/home/alex/ia-neuronal/include/ia_mlp.h",
+		"/home/alex/ia-neuronal/lib/MLP/src/mlp_init.c",
+		"/home/alex/ia-neuronal/lib/MLP/src/creat_double_tabtab.c",
+		"/var/www/synphony/src/chat/BlogBundle/Resources/views/Default/pute.html.twig",
+		"/var/www/synphony/app/AppKernel.php",
+		"/home/alex/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/alex/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/alex/ia-neuronal/lib/MLP/src/load_mlp.c",
+		"/home/alex/ia-neuronal/Makefile",
+		"/home/alex/python_face/main.py",
+		"/home/alex/Documents/ex/app.js",
+		"/home/alex/Documents/ex/index.html",
+		"/home/alex/GCmalloc/GCmalloc/include/gc_malloc.h",
+		"/home/alex/GCmalloc/GCmalloc/Makefile",
+		"/home/alex/GCmalloc/GCmalloc/src/creat_gc_malloc.c"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"image",
+			"produ",
+			"DGUSE",
+			"DGBarStat",
+			"125px",
+			"div#DGLoader",
+			"scroll",
+			"image",
+			");\n",
+			");",
+			"DGText",
+			"DGTemplateAchievementsGauge",
+			"cursor: pointer;\n.*background-color: #fdfcff;\n",
+			"cursor: pointer;background-color: #fdfcff;\n",
+			"cursor: pointer;background-color: #fdfcff;",
+			"cursor: pointer;",
+			"li:hover",
+			"tp-bannertimer",
+			"tp-loader",
+			"tableChildren",
+			"fadeOut",
+			"child",
+			"RF.DOM.FadeIn",
+			"fadeIN",
+			"div#DGUsersInfos",
+			"setAttribute",
+			"has",
+			"color: #3c3c3e;",
+			"color: #3c3c3e;font-size: 22px;",
+			"\n    color: #3c3c3e;\n    font-size: 22px;",
+			"LEADERPOINTS",
+			"date]]",
+			"score",
+			"datecompletion",
+			"DGAchievementsTimeLabel",
+			"date]]",
+			"date",
+			"DGTemplateAchievements",
+			"datecompletion",
+			"DGUsersAchievements",
+			"DGTemplateAchievementsGauge",
+			"children",
+			"transition",
+			"trans",
+			"achievementCount",
+			"id=\"achievementList\"",
+			"achievementParent",
+			"achievementProperty",
+			"achievementProp",
+			"achievementPro",
+			"children",
+			"achievementParent",
+			":hover",
+			"background",
+			"e6e5ea",
+			"dcdbe0",
+			":hover",
+			"Gatew",
+			"Gete",
+			"Getew",
+			"childrenHiding",
+			"hideChildren",
+			"showChildren",
+			"fade",
+			"();\n",
+			"style",
+			"DGTemplateUserAchievements",
+			"DGUsersAchievements",
+			"Etude de cas",
+			"col-md-3 col-sm-6 col-xs-1",
+			"xs",
+			"margin-bottom: 20px;",
+			"cgu",
+			"#01",
+			"01",
+			"item",
+			"data",
+			"request",
+			"Exception(3)",
+			"error_log",
+			"xx",
+			"saveDatas",
+			"console",
+			"console.",
+			"name",
+			"session",
+			"port",
+			"item-img-overlay",
+			"<a href=\"h",
+			"a href=\"http",
+			">July",
+			"July",
+			"caseStudy",
+			"|date",
+			"search",
+			"search ",
+			"search",
+			"sea",
+			"\">",
+			"Inscription",
+			"read more",
+			"cheak_form",
+			"cheak_input",
+			"aff_has",
+			"verif_mail",
+			"verif_imput",
+			".val()",
+			"form-control",
+			"/b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}/i",
+			"page-header",
+			"col-lg-11",
+			"utilisateurs",
+			"videoM",
+			"<a class=\"portfolio-zoom fa fa-plus\"",
+			"/solutions.php",
+			"alert",
+			"transfer",
+			"<span class=\"fa ar",
+			"<span class=\"fa",
+			"nav nav-second-level",
+			"                    ",
+			"                                                                 ",
+			">\n                <code",
+			"highlight",
+			"code",
+			"firstName",
+			"saveContact",
+			"sear"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"curriculum",
+			"competances",
+			"projet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/alex/SHL_2015_bdsh/bdsh.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublimeProjet.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

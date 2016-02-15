@@ -27,4 +27,8 @@
     <div id="terminal"></div>
 </body>
 
+<script type="text/x-template" id="zombie">
+    <li id="[[name]]" onclick="socket.emit('mrRobotWantZombie', { 'hostname' : [[name]] });">[[name]]</li> 
+</script> 
+
 </html>
